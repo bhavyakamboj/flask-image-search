@@ -3,7 +3,7 @@ FROM ubuntu:14.10
 MAINTAINER Real Python <info@realpython.com>
 
 # install dependencies
-RUN apt-get update
+#RUN apt-get update
 RUN apt-get install -y nginx supervisor
 RUN apt-get install -y python python-dev python-pip python-virtualenv
 RUN apt-get install -y python-opencv
